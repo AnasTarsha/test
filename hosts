@@ -1,2 +1,2 @@
 [aws]
-ec2-54-190-172-168.us-west-2.compute.amazonaws.com
+ec2 ansible_host=52.39.123.11
