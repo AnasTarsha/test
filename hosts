@@ -1,2 +1,2 @@
 [aws]
-ec2 ansible_host=52.39.123.11 ansible_user=ubuntu
+35.163.107.203
