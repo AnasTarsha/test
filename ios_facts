@@ -1,0 +1,14 @@
+---
+
+- hosts: csr.ddns.net
+  connection: local
+  gather_facts: no
+  tasks:
+  - ios_facts:
+      username: xxxx
+      password: xxxx
+      host: csr.ddns.net
+      transport: cli
+    register: facts
+  - debug: var=facts
+  - debug: var=ansible_net_version
